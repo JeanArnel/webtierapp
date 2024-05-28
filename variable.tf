@@ -49,11 +49,11 @@ variable "environment"{
  type=string
  default="staging"
 }
-
+/*
 variable "dnsprefix"{
 type=string
 
-}
+}*/
 variable "administrator_login"{
 type=string
 }
