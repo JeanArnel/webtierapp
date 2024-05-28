@@ -14,6 +14,12 @@ variable "client_secret"{
 variable "tenant_id"{
   type=string
 }
+
+variable "admin_username" {}
+variable "admin_password" {}
+variable "admin_username" {}
+variable "admin_password" {}
+
 variable "countNumber"{
   type=number
   default=0
