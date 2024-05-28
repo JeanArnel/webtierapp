@@ -22,9 +22,9 @@ variable "account_tier"{
   type=string
   default="Standard"
 }
-variable "myname"{
+/*variable "myname"{
   type=string
-}
+}*/
 variable "account_replication_type"{
   type=string
   default="GRS"
@@ -64,5 +64,6 @@ variable "windowsconfig"{
     type=string
     default="windowsconfig"
 }
-variable "db_admin_username"{}
+/*variable "db_admin_username"{}
 variable "db_admin_password"{}
+*/
