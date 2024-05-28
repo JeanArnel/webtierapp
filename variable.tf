@@ -17,8 +17,7 @@ variable "tenant_id"{
 
 variable "admin_username" {}
 variable "admin_password" {}
-variable "admin_username" {}
-variable "admin_password" {}
+
 
 variable "countNumber"{
   type=number
